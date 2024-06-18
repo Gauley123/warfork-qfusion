@@ -59,6 +59,12 @@ public:
 				case 'f':
 					formatted_data += "<span style=\"color: #FFFFFF;\">\xE2\x98\x85</span>";
 					break;
+				case 'S':
+					formatted_data += "<span style=\"color: #FFFFFF;\">\xE2\x97\x89</span>";
+					break;
+				case 's':
+					formatted_data += "<span style=\"color: #00000000;\">\xE2\x97\x89</span>";
+					break;
 				default:
 					formatted_data += flags[i];
 					break;
