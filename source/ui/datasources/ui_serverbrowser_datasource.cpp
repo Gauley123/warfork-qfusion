@@ -506,10 +506,12 @@ void ServerBrowserDataSource::GetRow( StringList &row, const String &table, int 
 		else if( *it == "favorite" )
 			row.push_back( info.favorite ? "yes" : "no" );
 		else if( *it == "flags" ) {
-			char flags[4] = { 0 };
+			char flags[6] = { 0 };
 			flags[0] = info.password ? 'P' : 'p';
 			flags[1] = ' ';
-			flags[2] = info.favorite ? 'F' : 'f';
+			flags[2] = info.steam ? 'S' : 's';
+			flags[3] = ' ';
+			flags[4] = info.favorite ? 'F' : 'f';
 			row.push_back( flags );
 		}
 		else if( *it == "mod" )
