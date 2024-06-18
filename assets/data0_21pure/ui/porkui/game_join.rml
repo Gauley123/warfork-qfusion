@@ -677,7 +677,7 @@
 					<col fields="cleanname" width="400dp">Hostname</col>
 					<col fields="players" width="70dp">Players</col>
 					<col fields="gametype" width="100dp">Gametype</col>
-					<col fields="steam" width="110dp">Steam</col>
+					<col fields="map" width="140dp">Map</col>
 				</datagrid>
 			</div>		
 		</div>
